@@ -103,6 +103,24 @@ li>span:hover {
     border-radius: 4px;
 }
 
+.kontus {
+    display: inline;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 2px solid whitesmoke;
+    background-color: #ffc300;
+    border-style: ridge;
+    width: 40%;
+    border-radius: 4px;
+    
+}
+
+.heder {
+    text-align: left;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
 @media only screen and (max-width: 960px) {
     aside {
         bottom: auto;
@@ -124,6 +142,20 @@ li>span:hover {
     ol {
         padding-left: 0px;
     }
+    
+    .kontus {
+        width: 100%;
+        margin-bottom: 15px;
+        
+    }
+
+    .heder {
+        font-size: 40px;
+        margin-top: 120px;
+        text-align: center;
+
+    }
+
   }
     
 
