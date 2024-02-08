@@ -64,8 +64,9 @@ ul {
 }
 
 ul>li {
+    margin-bottom: 10px;
     display: inline-block;
-    margin-right: 10px;
+    
     
 }
 
@@ -119,6 +120,28 @@ li>span:hover {
     text-align: left;
     font-size: 30px;
     margin-bottom: 25px;
+}
+
+.heder2 {
+    margin-top: 0;
+    font-size: 40px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.paragraf {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.heder22 {
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.lista > .listem {
+    margin-left: 20px;
 }
 
 @media only screen and (max-width: 960px) {
